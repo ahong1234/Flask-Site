@@ -1,4 +1,4 @@
-# Flask-Site (I suck at HTML/CSS!!!!)
+# Flask-Site (HTML/CSS still learning!!)
 A humble site using the micro-framework Flask to create webpages for a fictitious organization called "ABC Enterprises".
 Uses Flask session to login/register.
 Allows user to logout and change password.
