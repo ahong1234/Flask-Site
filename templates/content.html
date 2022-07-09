@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+{% block head %}
+{% endblock %}
+
+{% block body %}
+<body>
+    <h1>ABC Enterprises</h1>
+    <h3>{{datetime}}</h3>
+
+
+    <oL class="nav" style="list-style: none;">
+        <h2>OUR SERVICES</h2>
+            <div class = "flex-container">
+                <li>
+                    <p>Industry leading e-commerce services for a wide range of products</p>
+                    <br>
+                    <A HREF="https://www.walmart.com">
+                    <img alt="ecommerce" src="/static/img_2.png">
+                    </A>
+                    <br>
+                    <A HREF="https://www.walmart.com">E-commerce division</A>
+                </li>
+                <li>
+                    <p>State of the art video and content streaming services</p>
+                    <A HREF="https://en.wikipedia.org/wiki/Blockbuster_LLC">
+                        <img alt="streaming" src="/static/img_3.png">
+                    </A>
+                    <br>
+                    <A HREF="https://en.wikipedia.org/wiki/Blockbuster_LLC">Streaming division</A></li>
+                <li>
+                    <p>We are committed to sustainable nutrition</p>
+                    <A HREF="https://pizzahut.com">
+                        <img alt="streaming" src="/static/img_4.png">
+                    </A>
+                    <br>
+                    <A HREF="https://www.pizzahut.com">Nutrition services</A></li>
+            </div>
+    </oL>
+    <br>
+    <!--Display the navigation options-->
+    <!--use an unordered list for navigation to other pages-->
+    <ul class="nav" style="list-style: none;">
+        <h3>NAVIGATION</h3>
+        <li><A HREF="/">back to home!</A></li>
+        <li><A HREF="about">about page</A></li>
+    </ul>
+</body>
+{% endblock body %}
