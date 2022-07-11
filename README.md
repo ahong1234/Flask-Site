@@ -1,6 +1,7 @@
 # Flask-Site (HTML/CSS still learning!!)
 My attempt at using the micro-framework Flask to create webpages for a fictitious organization called "ABC Industries".
-Uses Flask session to login/register.
+Uses Flask session to login/register. 
+HTML/CSS heavily supplanted by knowledge gained from doing The Odin Project.
 Allows user to logout and change password.
 Uses SHA-256 hash to encrypt user password and verify password.
 Compares password to commonly used passwords and checks if passwords are "complex". (12 characters or more, upper and lower, number, special character)
